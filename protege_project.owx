@@ -1,0 +1,1206 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-2"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-2">
+    <Prefix name="" IRI="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-2/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Activité"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Camping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CourtSejour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Culturelles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Destination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dist_Culturelle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dist_Naturelle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Groupe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hotels"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hébergement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Individuel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Loisirs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LongSejour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Montagne"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ParcNational"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Public"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sites_Archeologiques"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Séjour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Touriste"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VilleHistorique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#privé"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Accessible_par"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Organisé_à"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Passé_dans"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Permet"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Permet_d_accéder_à"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Pratique"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Pratiqué_par"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Propose"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Réserve"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Réserve_sejour"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Réservé_par"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Réservé_par_touriste"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Situé_à"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Utilise"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Utilisé_par"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#offre"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Age"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Nationalité"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Nom_touriste"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Nombre_de_personnes"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Tarif_cult"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Tarif_loisirs"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Tarif_privé"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Tarif_public"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Type_camping"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#altitude"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#capacité_privé"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#capacité_public"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#difficulté"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#durée_courtSejour"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#durée_cult"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#durée_loisir"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#durée_longSejour"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#localisation_parc"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#localisation_plage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#localisation_site"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#localisation_ville"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nbr_etoiles"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nom_camping"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nom_culturelles"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nom_hotel"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nom_loisirs"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nom_montagne"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nom_parc"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nom_plage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nom_site"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nom_ville"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#prix_camping"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#prix_courtSejour"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#prix_hotels"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#prix_longSejour"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#type_privé"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#type_public"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Act_culturelles1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Camping1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CourtSejour1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Groupe1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hotel1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Loisir1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LongSejour1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Montagne1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ParcNational1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Plage1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Plage2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Plage3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SitesArcheologiques1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Touriste1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Trans_privé1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Trans_public1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ville1"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Activité"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Camping"/>
+        <Class IRI="#Hébergement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CourtSejour"/>
+        <Class IRI="#Séjour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Culturelles"/>
+        <Class IRI="#Activité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dist_Culturelle"/>
+        <Class IRI="#Destination"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dist_Naturelle"/>
+        <Class IRI="#Destination"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Groupe"/>
+        <Class IRI="#Touriste"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hotels"/>
+        <Class IRI="#Hébergement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Individuel"/>
+        <Class IRI="#Touriste"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Loisirs"/>
+        <Class IRI="#Activité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LongSejour"/>
+        <Class IRI="#Séjour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Montagne"/>
+        <Class IRI="#Dist_Naturelle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ParcNational"/>
+        <Class IRI="#Dist_Naturelle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plage"/>
+        <Class IRI="#Dist_Naturelle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Public"/>
+        <Class IRI="#Transport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sites_Archeologiques"/>
+        <Class IRI="#Dist_Culturelle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Séjour"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Touriste"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transport"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VilleHistorique"/>
+        <Class IRI="#ParcNational"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#privé"/>
+        <Class IRI="#Transport"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Dist_Culturelle"/>
+        <Class IRI="#Dist_Naturelle"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Activité"/>
+        <NamedIndividual IRI="#Act_culturelles1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hébergement"/>
+        <NamedIndividual IRI="#Camping1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CourtSejour"/>
+        <NamedIndividual IRI="#CourtSejour1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Groupe"/>
+        <NamedIndividual IRI="#Groupe1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hotels"/>
+        <NamedIndividual IRI="#Hotel1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Loisirs"/>
+        <NamedIndividual IRI="#Loisir1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Séjour"/>
+        <NamedIndividual IRI="#LongSejour1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Montagne"/>
+        <NamedIndividual IRI="#Montagne1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParcNational"/>
+        <NamedIndividual IRI="#ParcNational1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Plage"/>
+        <NamedIndividual IRI="#Plage1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Plage"/>
+        <NamedIndividual IRI="#Plage2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Plage"/>
+        <NamedIndividual IRI="#Plage3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sites_Archeologiques"/>
+        <NamedIndividual IRI="#SitesArcheologiques1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Touriste"/>
+        <NamedIndividual IRI="#Touriste1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#privé"/>
+        <NamedIndividual IRI="#Trans_privé1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Public"/>
+        <NamedIndividual IRI="#Trans_public1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VilleHistorique"/>
+        <NamedIndividual IRI="#Ville1"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Accessible_par"/>
+        <NamedIndividual IRI="#Plage1"/>
+        <NamedIndividual IRI="#Trans_public1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Propose"/>
+        <NamedIndividual IRI="#Plage1"/>
+        <NamedIndividual IRI="#Hotel1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#offre"/>
+        <NamedIndividual IRI="#Plage1"/>
+        <NamedIndividual IRI="#Loisir1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Accessible_par"/>
+        <NamedIndividual IRI="#SitesArcheologiques1"/>
+        <NamedIndividual IRI="#Trans_privé1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Propose"/>
+        <NamedIndividual IRI="#SitesArcheologiques1"/>
+        <NamedIndividual IRI="#Act_culturelles1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#offre"/>
+        <NamedIndividual IRI="#SitesArcheologiques1"/>
+        <NamedIndividual IRI="#Act_culturelles1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Pratique"/>
+        <NamedIndividual IRI="#Touriste1"/>
+        <NamedIndividual IRI="#Loisir1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Réserve"/>
+        <NamedIndividual IRI="#Touriste1"/>
+        <NamedIndividual IRI="#Hotel1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Réserve_sejour"/>
+        <NamedIndividual IRI="#Touriste1"/>
+        <NamedIndividual IRI="#LongSejour1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Utilise"/>
+        <NamedIndividual IRI="#Touriste1"/>
+        <NamedIndividual IRI="#Trans_privé1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Permet_d_accéder_à"/>
+        <NamedIndividual IRI="#Trans_privé1"/>
+        <NamedIndividual IRI="#Montagne1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Utilisé_par"/>
+        <NamedIndividual IRI="#Trans_privé1"/>
+        <NamedIndividual IRI="#Touriste1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Permet_d_accéder_à"/>
+        <NamedIndividual IRI="#Trans_public1"/>
+        <NamedIndividual IRI="#Plage1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Utilisé_par"/>
+        <NamedIndividual IRI="#Trans_public1"/>
+        <NamedIndividual IRI="#Touriste1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Accessible_par"/>
+        <NamedIndividual IRI="#Ville1"/>
+        <NamedIndividual IRI="#Trans_public1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Propose"/>
+        <NamedIndividual IRI="#Ville1"/>
+        <NamedIndividual IRI="#Camping1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#offre"/>
+        <NamedIndividual IRI="#Ville1"/>
+        <NamedIndividual IRI="#Act_culturelles1"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Tarif_cult"/>
+        <NamedIndividual IRI="#Act_culturelles1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">10.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#difficulté"/>
+        <NamedIndividual IRI="#Act_culturelles1"/>
+        <Literal>Moyen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#durée_cult"/>
+        <NamedIndividual IRI="#Act_culturelles1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nom_culturelles"/>
+        <NamedIndividual IRI="#Act_culturelles1"/>
+        <Literal>Visite du Louvre</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type_camping"/>
+        <NamedIndividual IRI="#Camping1"/>
+        <Literal>Tente</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nom_camping"/>
+        <NamedIndividual IRI="#Camping1"/>
+        <Literal>Camping Les Pins</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#prix_camping"/>
+        <NamedIndividual IRI="#Camping1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">25.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#durée_courtSejour"/>
+        <NamedIndividual IRI="#CourtSejour1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#prix_courtSejour"/>
+        <NamedIndividual IRI="#CourtSejour1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">1000.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nombre_de_personnes"/>
+        <NamedIndividual IRI="#Groupe1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nbr_etoiles"/>
+        <NamedIndividual IRI="#Hotel1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nom_hotel"/>
+        <NamedIndividual IRI="#Hotel1"/>
+        <Literal>Hôtel Ritz Paris</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#prix_hotels"/>
+        <NamedIndividual IRI="#Hotel1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">450.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Tarif_loisirs"/>
+        <NamedIndividual IRI="#Loisir1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">15.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#difficulté"/>
+        <NamedIndividual IRI="#Loisir1"/>
+        <Literal>Facile</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#durée_loisir"/>
+        <NamedIndividual IRI="#Loisir1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nom_loisirs"/>
+        <NamedIndividual IRI="#Loisir1"/>
+        <Literal>Randonnée en forêt</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#durée_longSejour"/>
+        <NamedIndividual IRI="#LongSejour1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#prix_longSejour"/>
+        <NamedIndividual IRI="#LongSejour1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">100000.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#altitude"/>
+        <NamedIndividual IRI="#Montagne1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">4808.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nom_montagne"/>
+        <NamedIndividual IRI="#Montagne1"/>
+        <Literal>Mont Blanc</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#localisation_parc"/>
+        <NamedIndividual IRI="#ParcNational1"/>
+        <Literal>43.2104, 5.4432</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nom_parc"/>
+        <NamedIndividual IRI="#ParcNational1"/>
+        <Literal>Parc National des Calanques</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#localisation_plage"/>
+        <NamedIndividual IRI="#Plage1"/>
+        <Literal>48.1234, -1.5678</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nom_plage"/>
+        <NamedIndividual IRI="#Plage1"/>
+        <Literal>Plage des Sables d&apos;Or</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#localisation_plage"/>
+        <NamedIndividual IRI="#Plage2"/>
+        <Literal>-22.9712, -43.1826</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nom_plage"/>
+        <NamedIndividual IRI="#Plage2"/>
+        <Literal>Plage de Copacabana</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#localisation_plage"/>
+        <NamedIndividual IRI="#Plage3"/>
+        <Literal>3.2204, 73.2205</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nom_plage"/>
+        <NamedIndividual IRI="#Plage3"/>
+        <Literal>Plage des Maldives</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#localisation_site"/>
+        <NamedIndividual IRI="#SitesArcheologiques1"/>
+        <Literal>37.9715, 23.7263</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nom_site"/>
+        <NamedIndividual IRI="#SitesArcheologiques1"/>
+        <Literal>Acropole d&apos;Athènes</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="#Touriste1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nationalité"/>
+        <NamedIndividual IRI="#Touriste1"/>
+        <Literal>Francaise</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nom_touriste"/>
+        <NamedIndividual IRI="#Touriste1"/>
+        <Literal>Jean Dupont</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Tarif_privé"/>
+        <NamedIndividual IRI="#Trans_privé1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">30.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacité_privé"/>
+        <NamedIndividual IRI="#Trans_privé1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#type_privé"/>
+        <NamedIndividual IRI="#Trans_privé1"/>
+        <Literal>Taxi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Tarif_public"/>
+        <NamedIndividual IRI="#Trans_public1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">2.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacité_public"/>
+        <NamedIndividual IRI="#Trans_public1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#type_public"/>
+        <NamedIndividual IRI="#Trans_public1"/>
+        <Literal>Bus</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#localisation_ville"/>
+        <NamedIndividual IRI="#Ville1"/>
+        <Literal>43.2079, 2.3636</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nom_ville"/>
+        <NamedIndividual IRI="#Ville1"/>
+        <Literal>Carcassonne</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Accessible_par"/>
+        <ObjectProperty IRI="#Permet_d_accéder_à"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Organisé_à"/>
+        <ObjectProperty IRI="#offre"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Passé_dans"/>
+        <ObjectProperty IRI="#Permet"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Pratique"/>
+        <ObjectProperty IRI="#Pratiqué_par"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Propose"/>
+        <ObjectProperty IRI="#Situé_à"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Réserve"/>
+        <ObjectProperty IRI="#Réservé_par"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Réserve_sejour"/>
+        <ObjectProperty IRI="#Réservé_par_touriste"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Utilise"/>
+        <ObjectProperty IRI="#Utilisé_par"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Accessible_par"/>
+        <Class IRI="#Destination"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Organisé_à"/>
+        <Class IRI="#Activité"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Passé_dans"/>
+        <Class IRI="#Séjour"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Permet"/>
+        <Class IRI="#Hébergement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Permet_d_accéder_à"/>
+        <Class IRI="#Transport"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Pratique"/>
+        <Class IRI="#Touriste"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Pratiqué_par"/>
+        <Class IRI="#Activité"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Propose"/>
+        <Class IRI="#Destination"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Réserve"/>
+        <Class IRI="#Touriste"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Réserve_sejour"/>
+        <Class IRI="#Touriste"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Réservé_par"/>
+        <Class IRI="#Hébergement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Réservé_par_touriste"/>
+        <Class IRI="#Séjour"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Situé_à"/>
+        <Class IRI="#Hébergement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Utilise"/>
+        <Class IRI="#Touriste"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Utilisé_par"/>
+        <Class IRI="#Transport"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#offre"/>
+        <Class IRI="#Destination"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Accessible_par"/>
+        <Class IRI="#Transport"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Organisé_à"/>
+        <Class IRI="#Destination"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Passé_dans"/>
+        <Class IRI="#Hébergement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Permet"/>
+        <Class IRI="#Séjour"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Permet_d_accéder_à"/>
+        <Class IRI="#Destination"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Pratique"/>
+        <Class IRI="#Activité"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Pratiqué_par"/>
+        <Class IRI="#Touriste"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Propose"/>
+        <Class IRI="#Hébergement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Réserve"/>
+        <Class IRI="#Hébergement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Réserve_sejour"/>
+        <Class IRI="#Séjour"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Réservé_par"/>
+        <Class IRI="#Touriste"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Réservé_par_touriste"/>
+        <Class IRI="#Touriste"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Situé_à"/>
+        <Class IRI="#Destination"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Utilise"/>
+        <Class IRI="#Transport"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Utilisé_par"/>
+        <Class IRI="#Touriste"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#offre"/>
+        <Class IRI="#Activité"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Age"/>
+        <Class IRI="#Individuel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nationalité"/>
+        <Class IRI="#Touriste"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nom_touriste"/>
+        <Class IRI="#Touriste"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nombre_de_personnes"/>
+        <Class IRI="#Groupe"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Tarif_cult"/>
+        <Class IRI="#Culturelles"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Tarif_loisirs"/>
+        <Class IRI="#Loisirs"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Tarif_privé"/>
+        <Class IRI="#privé"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Tarif_public"/>
+        <Class IRI="#Public"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Type_camping"/>
+        <Class IRI="#Camping"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#altitude"/>
+        <Class IRI="#Montagne"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#capacité_privé"/>
+        <Class IRI="#privé"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#capacité_public"/>
+        <Class IRI="#Public"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#difficulté"/>
+        <Class IRI="#Loisirs"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#durée_courtSejour"/>
+        <Class IRI="#CourtSejour"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#durée_cult"/>
+        <Class IRI="#Culturelles"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#durée_loisir"/>
+        <Class IRI="#Loisirs"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#durée_longSejour"/>
+        <Class IRI="#LongSejour"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#localisation_parc"/>
+        <Class IRI="#ParcNational"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#localisation_plage"/>
+        <Class IRI="#Plage"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#localisation_site"/>
+        <Class IRI="#Sites_Archeologiques"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#localisation_ville"/>
+        <Class IRI="#VilleHistorique"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nbr_etoiles"/>
+        <Class IRI="#Hotels"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nom_camping"/>
+        <Class IRI="#Camping"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nom_culturelles"/>
+        <Class IRI="#Culturelles"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nom_hotel"/>
+        <Class IRI="#Hotels"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nom_loisirs"/>
+        <Class IRI="#Loisirs"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nom_montagne"/>
+        <Class IRI="#Montagne"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nom_parc"/>
+        <Class IRI="#ParcNational"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nom_plage"/>
+        <Class IRI="#Plage"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nom_site"/>
+        <Class IRI="#Sites_Archeologiques"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nom_ville"/>
+        <Class IRI="#VilleHistorique"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#prix_camping"/>
+        <Class IRI="#Camping"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#prix_courtSejour"/>
+        <Class IRI="#CourtSejour"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#prix_hotels"/>
+        <Class IRI="#Hotels"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#prix_longSejour"/>
+        <Class IRI="#LongSejour"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#type_privé"/>
+        <Class IRI="#privé"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#type_public"/>
+        <Class IRI="#Public"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Age"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Nationalité"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Nom_touriste"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Nombre_de_personnes"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Tarif_cult"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Tarif_loisirs"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Tarif_privé"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Tarif_public"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Type_camping"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#altitude"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#capacité_privé"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#capacité_public"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#difficulté"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#durée_courtSejour"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#durée_cult"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#durée_loisir"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#durée_longSejour"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#localisation_parc"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#localisation_plage"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#localisation_site"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#localisation_ville"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nbr_etoiles"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nom_camping"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nom_culturelles"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nom_hotel"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nom_loisirs"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nom_montagne"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nom_parc"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nom_plage"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nom_site"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nom_ville"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#prix_camping"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#prix_courtSejour"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#prix_hotels"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#prix_longSejour"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#type_privé"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#type_public"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
